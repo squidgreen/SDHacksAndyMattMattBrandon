@@ -31,8 +31,6 @@ function initialize() {
 	btn.classList.add('selected');
 	}
 	
-	
-	
 
 
 	

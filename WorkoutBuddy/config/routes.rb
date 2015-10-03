@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
     get 'users/new' => 'users#new', :as => 'users'
     post 'users/new' => 'users#create'
-    get 'users/confirm' => 'users#confirm'
+    #get 'users/confirm' => 'users#confirm'
 
     get'/center' => 'center#new'
 

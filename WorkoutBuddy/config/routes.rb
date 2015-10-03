@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
-    root 'registration#new'
+    root 'welcome#new'
+
+    get 'users/new' => 'users#new', :as => 'users'
+    post 'users/new' => 'users#create'
+    get 'users/verify' => 'users#verify'
+    get 'users/confirm' => 'users#confirm'
+
+    get'/center' => 'center#new'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

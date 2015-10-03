@@ -1,0 +1,77 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-image: url("http://www.fitcrazy.tv/wp-content/uploads/2014/12/SJ-background.jpg");
+  background-size: 100%; 
+  background-repeat: no-repeat;
+}
+
+
+#loginBox {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  border: 3px solid #BD7F28;
+  border-radius: 25px;
+  text-align: center;
+  width: 260px;
+  height:260px;
+}
+
+#loginBoxPass {
+  position: relative;
+  top: 30%;
+	height: 10vh;
+  color: orange;
+  font-family: "Futura", Sans-seif;
+}
+
+#passwordBox {
+  position: relative;
+	height: 2.5vh;
+  border-radius: 25px;
+  border: 2px solid;
+  padding: 2px;
+}
+
+#loginBoxEmail {
+  position: relative;
+  top: 30%;
+  color: orange;
+  font-family: "Futura", Sans-seif;
+}
+
+#loginInfo{
+    visibility:hidden;
+}
+
+#emailBox {
+  position: relative;
+  border-radius: 25px;
+  border: 2px solid;
+  height: 2vh;
+  padding: 2px;
+}
+
+a{
+    font-size:30px;
+    text-decoration:none;
+    background-color:black;
+    border-radius:10px;
+    color:white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.home_buttons{
+    position:relative;
+    bottom: 100px;
+}
+
+#loginInfo{
+    position:relative;
+    top:100px;
+}
+

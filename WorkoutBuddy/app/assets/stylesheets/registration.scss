@@ -4,9 +4,19 @@
 
 body{
     background: linear-gradient(
-            rgba(150, 0, 50, 0.45),
-            rgba(150, 0, 50, 0.45)
+            rgba(100, 0, 50, 0.45),
+            rgba(100, 0, 50, 0.45)
         ),
-    url("gym.jpg");
+    url("/pictures/gym.jpg");
     background-size: cover;
+}
+
+body *{
+    font-color: white;
+}
+
+h1 {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: orange;
+  font-family: "Futura", Sans-serif;
 }

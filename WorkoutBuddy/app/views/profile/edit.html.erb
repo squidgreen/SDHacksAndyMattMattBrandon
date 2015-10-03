@@ -1,0 +1,8 @@
+
+<% @profiles.each do |p| %>
+<div class="profile">
+    <h3><%= p.first_name%> <%= p.last_name%></h3>
+    <h3><%= p.email%></h3>
+    <h3><%= p.password%></h3>
+</div>
+<% end %>

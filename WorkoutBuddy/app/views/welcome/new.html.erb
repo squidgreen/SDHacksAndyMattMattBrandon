@@ -1,0 +1,25 @@
+
+<%= javascript_include_tag 'welcome' %>
+<div id="loginBox">
+    <div id="loginInfo">
+      <div id="loginBoxEmail" class="box">
+        <form>Email<br>
+          <input id="emailBox" type="text" name="Email">
+        </form>
+      </div>
+      <div id="loginBoxPass" class="box">
+         <form>Password
+           <input id="passwordBox" type="password" name="Password">
+         </form>
+      </div>
+      <div id="loginButton">
+        <%= link_to "Login", "/users/verify"%>
+      </div>
+    </div>
+      <!--<button id="signInButton" onclick="showDiv();">Sign In</button>-->
+      <span class="home_buttons">
+          <a id="signInButton">Sign In</a>
+          <%= link_to "Register", "/users/new"%> 
+      </span>
+</div>
+

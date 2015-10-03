@@ -1,0 +1,10 @@
+<h1 id="registration_title">Register:</h1>
+<%= form_for(@user) do |f| %>
+    <%= f.text_field :first_name, :placeholder => "First name"%> <br/>
+    <%= f.text_field :last_name, :placeholder => "Last name"%>  <br/>
+    <%= f.email_field :email, :placeholder => "Email"%> <br/>
+    <%= f.password_field :password_digest, :placeholder => "Password"%> <br/>
+
+    <%= f.submit "Submit" %>
+<% end %>
+

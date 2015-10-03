@@ -1,3 +1,4 @@
 function showDiv() {
-  document.getElementById('loginBox').style.display = "block";
+  document.getElementById('loginBoxEmail').style.display = "block";
+  document.getElementById('loginBoxPass').style.display = "block";
 }

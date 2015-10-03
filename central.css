@@ -25,14 +25,22 @@ body {
 
 #menu td {
 	width: 30vw;
-	height: 4vh;
+	height: 5vh;
 	text-align: center;
 	font-family: sans-serif;
 }
 
-#name {
-	font-size: 30px;
+#profilePic {
+	width: 30vw;
+	height: 40vh;
+	background: url(manFace.png) no-repeat;
+	background-position: 50%;
+	background-size: 40%;
+}
 
+#name {	
+	font-size: 30px;
+	font-style: italic;
 }
 
 .tab-bar {

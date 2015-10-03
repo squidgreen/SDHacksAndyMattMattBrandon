@@ -8,29 +8,34 @@
         <script
         src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
         </script>
+        <script src="velocity.js"></script>
         <script src="RegisterPage.js"></script>
 
         <meta name=viewport content="width=device-width, initial-scale=1">
     </head>
 
     <body>
-        <h1>Registration:</h1>
+        <h1 id="title">Registration:</h1>
 
         <div class="personal_info">
           <form action="personal_info.php">
             <div class="first_name">
+                <p class="field_name">First name</p>
                 <input type="text" name="first_name" value="First name">
             </div>
 
             <div class="last_name">
+                <p class="field_name">Last name</p>
                 <input type="text" name="last_name" value="Last name">
             </div>
 
             <div class="email">
+                <p class="field_name">E-mail</p>
                 <input type="text" name="email" value="E-mail">
             </div>
 
             <div class="password">
+                <p class="field_name">Password</p>
                 <input type="text" name="password" value="Password">
             </div>
 

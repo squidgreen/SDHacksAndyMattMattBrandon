@@ -1,0 +1,14 @@
+<h1 id="title">Registration:</h1>
+
+<%= form_for(@profile) do |p| %>
+<div class="field">
+    <%= f.text_area :first_name %>
+    <%= f.text_area :last_name %>
+    <%= f.text_area :email %>
+    <%= f.text_area :password %>
+</div>
+
+<div class="actions">
+    <%= f.submit "Next" %>
+</div>
+<% end %>

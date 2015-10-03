@@ -14,57 +14,17 @@
       <button class="tab-btn tab-2">Equipment</button>
       <button class="tab-btn tab-3">Diet</button>
       <button class="tab-btn tab-4">Others</button>
+      <%= link_to "Log out", logout_path, method: "delete"%>
     </nav>
 
-	<div id="googleMap"></div>
+    <%= yield %>
+
 	
-	<div id="menu"> 
-		<table>
-			<div id="profilePic"></div> 
-			<tr>
-				<td id="name">John Smith</td> 
-			</tr>
-			<tr>
-				<td id="blank"></td> 
-			</tr>
-			<tr>
-				<td id="gender">Gender: </td>
-			</tr>
-			<tr>
-				<td id="height">Height: </td>
-			</tr>
-			<tr>
-				<td id="weight">Weight: </td>
-			</tr>
-			<tr>
-				<td id="experience">Experience: </td>
-			</tr>
-		</table>
-
-	</div>
-
 </body>
 
 <script>
-var myCenter =new google.maps.LatLng(32.7150,-117.1625);
 
-function initialize() {
-    console.log("initialize");
-//Google map view
-	var mapProp = {
-	center: myCenter,
-	zoom:11,
-	mapTypeId:google.maps.MapTypeId.ROADMAP
-	};
-	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
-	var marker = new google.maps.Marker({
-		position: myCenter,
-	});
-
-	marker.setMap(map);
-
-
+google.maps.event.addDomListener(window, 'load', function(){
 //tab bar controller
 	var tabBtns = document.querySelectorAll('.tab-bar > .tab-btn');
 
@@ -81,13 +41,8 @@ function initialize() {
 	}
 	
 	
-	
+});
 
-
-	
-}
-
-    google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 
 </html>

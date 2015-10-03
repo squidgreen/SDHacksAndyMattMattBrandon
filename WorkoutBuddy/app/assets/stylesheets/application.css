@@ -23,6 +23,12 @@
     height: 100px;
 }
 
+.header a{
+    position:absolute;
+    top: 25px;
+    right: 10%;
+}
+
 #title{
   font-size: 450%;
   text-align: center;

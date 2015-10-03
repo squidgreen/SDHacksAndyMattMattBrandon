@@ -4,21 +4,23 @@
     <link rel = "stylesheet" href="HomePage.css">
     <title>Working Title!</title>
   </head>
-  <h1>Work In</h1>
+  <h1>Work</h1>
   <body>
     <script src="homeScript.js"></script>
-
-    <div id="loginBoxEmail" class="box">
-      <form>Email
-        <input type="text" name="Email">
-      </form>
-     </div>
-     <div id="loginBoxPass" class="box">
-       <form>Password
-         <input id="password" type="password" name="Password">
-       </form>
-     </div>
-    <button onclick="showDiv()">Sign In</button>
+    
+    <div id="loginBox">
+      <div id="loginBoxEmail" class="box">
+        <form>Email
+          <input id="emailBox" type="text" name="Email">
+        </form>
+       </div>
+       <div id="loginBoxPass" class="box">
+         <form>Password
+           <input id="passwordBox" type="password" name="Password">
+         </form>
+       </div>
+      <button id="signInButton" onclick="showDiv();">Sign In</button>
+    </div>
 
   </body>
 </html>

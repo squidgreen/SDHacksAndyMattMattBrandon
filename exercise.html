@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="exercise.js"></script>
+
+<link rel="stylesheet" href="exercise.css">
+</head>
+
+<body>
+    <nav class="tab-bar">
+      <a href="central.html"><button class="tab-btn tab-1">Map</button></a>
+      <button class="tab-btn tab-2 selected">Exercise</button>
+      <button class="tab-btn tab-3">Equipment</button>
+      <button class="tab-btn tab-4">Diet</button>
+    </nav>
+
+	<div id="firstScreen">
+		<div class="slider" id="intensitySlider1">
+			<h3>Days since last workout</h3>
+			<input type="range" style="width:90%;" min="0" max="30" onchange="rangevalue1.value=value"/>
+			<output id="rangevalue1">15</output>
+		</div>
+	
+		<div class="slider" id="intensitySlider2">
+			<h3>Calories intake in last 24hr</h3>
+			<input type="range" style="width:90%;" min="0" max="4000" onchange="rangevalue2.value=value"/>
+			<output id="rangevalue2">2000</output>
+		</div>
+	
+		<div class="slider" id="intensitySlider3">
+			<h3>Preferred workout duration (minutes)</h3>
+			<input type="range" style="width:90%;" min="0" max="120" onchange="rangevalue3.value=value"/>
+			<output id="rangevalue3">60</output>
+		</div>
+	
+		<div id="submit">
+		</div>
+	</div>
+	
+	<div id="secondScreen">
+	
+	</div>
+
+</body>
+
+</html>

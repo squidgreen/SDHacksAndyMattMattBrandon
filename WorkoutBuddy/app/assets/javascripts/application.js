@@ -13,8 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require jquery-readyselector
 //= require_tree .
-//
+
 $(document).ready(function(){
     $('#signInButton').click(function(){
       //document.getElementById('loginBoxEmail').style.visibility = "visible";

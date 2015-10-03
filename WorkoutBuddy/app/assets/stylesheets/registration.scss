@@ -1,0 +1,12 @@
+// Place all the styles related to the Registration controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+    background: linear-gradient(
+            rgba(150, 0, 50, 0.45),
+            rgba(150, 0, 50, 0.45)
+        ),
+    url("gym.jpg");
+    background-size: cover;
+}

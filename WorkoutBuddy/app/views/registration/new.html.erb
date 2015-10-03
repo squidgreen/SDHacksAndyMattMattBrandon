@@ -1,11 +1,15 @@
 <h1 id="title">Registration:</h1>
 
-<%= form_for(@profile) do |p| %>
+<%= form_for @profile, url: {action: "create"} do |f| %>
 <div class="field">
-    <%= f.text_area :first_name %>
-    <%= f.text_area :last_name %>
-    <%= f.text_area :email %>
-    <%= f.text_area :password %>
+    <%= f.label :first_name %>
+    <%= f.text_area :first_name %> <br/>
+    <%= f.label :last_name %>
+    <%= f.text_area :last_name %>  <br/>
+    <%= f.label :email %>
+    <%= f.text_area :email %> <br/>
+    <%= f.label :password %>
+    <%= f.text_area :password %> <br/>
 </div>
 
 <div class="actions">

@@ -14,3 +14,11 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//
+$(document).ready(function(){
+    $('#signInButton').click(function(){
+      document.getElementById('loginBoxEmail').style.visibility = "visible";
+      document.getElementById('loginBoxPass').style.visibility = "visible";
+    });
+});
+

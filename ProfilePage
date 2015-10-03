@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+  <title>
+    <h1>
+      Profile
+    </h1>
+  </title>
+  <body>
+    Name:
+	<br><br>
+	Age:
+    <br><br>
+    Email:
+	<br><br>
+	Change Info
+  </body>
+
+
+  
+</html>

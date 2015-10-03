@@ -26,7 +26,7 @@
 #profilePic {
 	width: 30vw;
 	height: 40vh;
-	background: url(manFace.png) no-repeat;
+	background: url(/pictures/manFace.png) no-repeat;
 	background-position: 50%;
 	background-size: 40%;
 }
@@ -60,7 +60,7 @@
 	background: #D8783C;
 }
 
-.tab-bar button {
+.tab-btn {
 	width: 8vh;
 	height: 8vh;
 
@@ -77,21 +77,27 @@
 	transition: background-color 0.4s ease-out;
 
 	-webkit-tap-highlight-color: transparent;
+
+    cursor: pointer;
 }
 
-.tab-bar button:hover{
-	background-color: rgba(255, 255, 255, 0.5);
+.tab-bar button:hover {
+	background-color: rgba(255, 255, 255, 0.9);
 }
 
-.tab-bar button:focus {
+.tab-bar button:focus{
 	background-color: rgba(255, 255, 255, 0.7);
 	outline: 0;
 }
 
-.tab-bar button:active {
+.tab-bar button:active{
 	background-color: rgba(255, 255, 255, 0.9);
 }
 
 .tab-bar button.selected {
 	background-color: rgba(255, 255, 255, 1.0);
+}
+
+#logout a{
+    text-decoration:none;
 }

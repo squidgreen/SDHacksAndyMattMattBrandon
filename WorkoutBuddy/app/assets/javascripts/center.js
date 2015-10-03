@@ -1,7 +1,6 @@
 var myCenter =new google.maps.LatLng(32.7150,-117.1625);
 
 function initialize() {
-    console.log("initialize");
 //Google map view
 	var mapProp = {
 	center: myCenter,

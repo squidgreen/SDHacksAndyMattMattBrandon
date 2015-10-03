@@ -12,6 +12,10 @@ form.new_user{
 form input{
     height: 50px;
     width: 200px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    opacity: .95;
+    font-size: 15px;
 }
 
 #registration_title{
@@ -21,6 +25,10 @@ form input{
     width: 100%;
     text-align: center;
     font-color:white;
+}
+
+.submit_registration *{
+    background-color: white;
 }
 
 .confirm_page{

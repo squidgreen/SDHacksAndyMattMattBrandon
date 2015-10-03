@@ -1,8 +1,64 @@
+body {
+  background-image: url("http://www.fitcrazy.tv/wp-content/uploads/2014/12/SJ-background.jpg");
+  background-size: 100%; 
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 450%;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: orange;
+  font-family: "Futura", Sans-seif;
+}
+
+#loginBox {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  border: 3px solid #BD7F28;
+  border-radius: 25px;
+  text-align: center;
+  width: 260px;
+  height:260px;
+}
+
 #loginBoxPass {
+  position: relative;
+  top: 50%;
 	height: 10vh;
-
+  color: orange;
+  font-family: "Futura", Sans-seif;
+  display:none
 }
 
-#password {
-	height: 10vh;
+#passwordBox {
+  position: relative;
+	height: 2.5vh;
+  border-radius: 25px;
+  border: 2px solid;
+  padding: 2px;
 }
+
+#loginBoxEmail {
+  position: relative;
+  top: 50%;
+  color: orange;
+  font-family: "Futura", Sans-seif;
+  display:none
+}
+
+#emailBox {
+  position: relative;
+  border-radius: 25px;
+  border: 2px solid;
+  height: 2vh;
+  padding: 2px;
+}
+
+#signInButton {
+  position: relative;
+  top: 60%;
+}
+
+

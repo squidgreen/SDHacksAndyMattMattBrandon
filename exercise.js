@@ -25,10 +25,6 @@ function initialize() {
 	sliderSubmit.addEventListener('click', onSubmitClick, true);
 	
 	function onSubmitClick(e) {
-		console.log("CLicked");
-		
-
-		
 		$("#firstScreen").animate({left: '-100vw'});
 		$("#secondScreen").animate({left: '0vw'});
 	}

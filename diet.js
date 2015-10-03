@@ -8,7 +8,7 @@ function initialize() {
 
 	for(var i = 0; i < tabBtns.length; i++) {   
 		tabBtns[i].addEventListener('click', onTabClick, true);
-	}
+	} 
 
 	function onTabClick(e) {
 		var currentTab = document.querySelector('.tab-bar > .tab-btn.selected');

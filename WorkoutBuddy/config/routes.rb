@@ -3,10 +3,18 @@ Rails.application.routes.draw do
 
     get 'users/new' => 'users#new', :as => 'users'
     post 'users/new' => 'users#create'
-    get 'users/verify' => 'users#verify'
     get 'users/confirm' => 'users#confirm'
 
     get'/center' => 'center#new'
+
+  #LOGIN AUTHENTIFICATION 
+  get 'signup' => 'users#new'
+  resources :users
+
+  get '/login' => 'sessions#new'
+  post '/login' => 'sessions#create'
+  get 'logout' => 'sessions#destroy'
+  #^should be DELETE but idk
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

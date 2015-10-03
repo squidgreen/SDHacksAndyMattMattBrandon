@@ -26,7 +26,6 @@ body {
 	height: 10vh;
   color: orange;
   font-family: "Futura", Sans-seif;
-  visibility: hidden;
 }
 
 #passwordBox {
@@ -42,7 +41,10 @@ body {
   top: 30%;
   color: orange;
   font-family: "Futura", Sans-seif;
-  visibility: hidden;
+}
+
+#loginInfo{
+    visibility:hidden;
 }
 
 #emailBox {
@@ -65,7 +67,7 @@ a{
 
 .home_buttons{
     position:relative;
-    bottom: 70px;
+    bottom: 100px;
 }
 
 #loginInfo{

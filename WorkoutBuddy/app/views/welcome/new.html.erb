@@ -12,11 +12,14 @@
            <input id="passwordBox" type="password" name="Password">
          </form>
       </div>
+      <div id="loginButton">
+        <%= link_to "Login", "/users/verify"%>
+      </div>
     </div>
       <!--<button id="signInButton" onclick="showDiv();">Sign In</button>-->
       <span class="home_buttons">
           <a id="signInButton">Sign In</a>
-          <%= link_to "Register", "/signup"%> 
+          <%= link_to "Register", "/users/new"%> 
       </span>
 </div>
 

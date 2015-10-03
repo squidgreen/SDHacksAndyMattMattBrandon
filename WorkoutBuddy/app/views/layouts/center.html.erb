@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<%= javascript_include_tag 'center', 'data-turbolinks-track' => true %>
+<%= stylesheet_link_tag 'center', media: 'all',
+    'data-turbolinks-track' => true %>
+<%= csrf_meta_tags %>
+</head>
+
+<body>
+    <nav class="tab-bar">
+      <button class="tab-btn tab-1 selected">Map</button>
+      <button class="tab-btn tab-2">Equipment</button>
+      <button class="tab-btn tab-3">Diet</button>
+      <button class="tab-btn tab-4">Others</button>
+    </nav>
+
+	<div id="googleMap"></div>
+	
+	<div id="menu"> 
+		<table>
+			<div id="profilePic"></div> 
+			<tr>
+				<td id="name">John Smith</td> 
+			</tr>
+			<tr>
+				<td id="blank"></td> 
+			</tr>
+			<tr>
+				<td id="gender">Gender: </td>
+			</tr>
+			<tr>
+				<td id="height">Height: </td>
+			</tr>
+			<tr>
+				<td id="weight">Weight: </td>
+			</tr>
+			<tr>
+				<td id="experience">Experience: </td>
+			</tr>
+		</table>
+
+	</div>
+
+</body>
+
+</html>
